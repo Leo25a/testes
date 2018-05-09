@@ -1,0 +1,11 @@
+create database testes;
+
+
+CREATE TABLE `dados` (
+  `NOME` varchar(100) NOT NULL,
+  `CODIGO` int(10) NOT NULL,
+  `TIPO` varchar(100) NOT NULL,
+  `FORNECEDOR` varchar(100) NOT NULL,
+  `PRECO` int(100) NOT NULL,
+  PRIMARY KEY (`NOME`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
